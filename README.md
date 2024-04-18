@@ -10,7 +10,7 @@ To get the output in your telegram group please follow the below steps.
 
 2) Create a Group
     1) In this Group add the bot that you created.
-    2) Once this is done, we need the chat ID of the group to which we have the bot added. For this use this URL ( https://api.telegram.org/bot<YourBOTToken>/getUpdates ) and mostly your output will be "{"ok":true,"result":[]} " which is not one that we want. So in order for the URL to work, first run the command (/my_id @YOUR_BOT_Name) in the group and then run the URL (if it does not work retry again). You will get a similar output.
+    2) Once this is done, we need the chat ID of the group to which we have the bot added. For this use this URL ( https://api.telegram.org/bot{YourBOTToken}/getUpdates ) and mostly your output will be "{"ok":true,"result":[]} " which is not one that we want. So in order for the URL to work, first run the command (/my_id @YOUR_BOT_Name) in the group and then run the URL (if it does not work retry again). You will get a similar output.
   
     {
     "update_id": 1234,
