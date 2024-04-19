@@ -31,4 +31,10 @@ To get the output in your telegram group please follow the below steps.
             "username": "YOUR_BOT_NAME"
         }
     }
+
 } 
+     3)Once we obtain the chat ID we can use it in the below URL inorder to get an output by the bot. 
+          https://api.telegram.org/bot{BOT_TOKEN}/sendMessage?chat_id=<CHAT_ID>&text="This is a message"
+
+3) RUNNING THE PROGRAM
+     1) Make sure the install pynput and requests library before running the code.
